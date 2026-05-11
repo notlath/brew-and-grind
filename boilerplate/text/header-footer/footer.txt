@@ -1,0 +1,52 @@
+-- H3 --
+About Us
+
+~~~~~~~~~~~~~~~~~~~~~~
+
+-- P --
+Your neighborhood spot for great coffee, good company, and a warm atmosphere. Visit us today and experience the difference. Follow us on social media for the latest updates and events!
+
+~~~~~~~~~~~~~~~~~~~~~~
+
+-- H3 --
+Contact Us
+
+~~~~~~~~~~~~~~~~~~~~~~
+
+-- P --
+1234, Address, Street Name, Place, Name, City Name
+
+-- P --
+(+63) 972 215 5432
+(+63) 972 332 8423
+
+-- P --
+brewngrind@gmail.com
+
+~~~~~~~~~~~~~~~~~~~~~~
+
+-- H3 --
+Quick Link
+
+~~~~~~~~~~~~~~~~~~~~~~
+
+-- LI --
+Home
+About Us
+Our Menu
+Contact Us
+
+~~~~~~~~~~~~~~~~~~~~~~
+
+-- H3 --
+Opening Time
+
+~~~~~~~~~~~~~~~~~~~~~~
+
+-- LI --
+Monday: 10:00am
+Tuesday: 10:20am - 5:30pm
+Wednesday: 10:30am - 5:50pm
+Thursday: 11:00am - 7:10pm
+Friday: Closed
+
