@@ -1,0 +1,72 @@
+-- H3 --
+Our Specialties
+
+-- Body --
+Welcome to our menu—a celebration of flavor and craftsmanship. Discover a diverse selection of artisanal coffees and handcrafted delicacies, each prepared with passion and precision for a truly unique experience. Savor every sip and bite as you embark on a culinary journey that's both nostalgic and innovative. Explore our special offerings and let your taste buds delight in the unique character of every creation.
+
+~~~~~~~~~~~~~~~~~~~~~~
+
+-- H6 --
+Golden Maple Latte
+
+-- Body --
+A smooth espresso blended with steamed milk, infused with rich maple syrup and a hint of cinnamon.
+
+~~~~~~~~~~~~~~~~~~~~~~
+
+-- H6 --
+Midnight Mocha
+
+-- Body --
+A rich dark chocolate mocha infused with a touch of espresso, finished with a smooth and velvety texture.
+
+~~~~~~~~~~~~~~~~~~~~~~
+
+-- H6 --
+Honey Matcha Latte
+
+-- Body --
+A earthy twist on a classic latte, with freshly ground matcha and a touch of honey for natural sweetness.
+
+~~~~~~~~~~~~~~~~~~~~~~
+
+-- H6 --
+Vanilla Bean Cold Brew
+
+-- Body --
+Our slow-steeped cold brew infused with real vanilla bean for a refreshing, smooth taste.
+
+~~~~~~~~~~~~~~~~~~~~~~
+
+-- H6 --
+Midnight Latte
+
+-- Body --
+Experience a perfect blend of dark chocolate and robust espresso in this sumptuous mocha treat.
+
+~~~~~~~~~~~~~~~~~~~~~~
+
+-- H6 --
+Fruit Shortcake
+
+-- Body --
+A light shortcake layered with fresh seasonal fruits, crafted to deliver a delightful burst of flavor.
+
+~~~~~~~~~~~~~~~~~~~~~~
+
+-- H6 --
+Choco Fill Bun
+
+-- Body --
+A delectable pastry filled with rich, melted chocolate—a perfect sweet snack for any time.
+
+~~~~~~~~~~~~~~~~~~~~~~
+
+-- H6 --
+Muffins
+
+-- Body --
+Freshly baked assorted muffins, perfect for a quick snack or a delightful breakfast treat.
+
+~~~~~~~~~~~~~~~~~~~~~~
+

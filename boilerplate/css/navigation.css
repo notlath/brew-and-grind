@@ -1,0 +1,45 @@
+  *,
+  *::before,
+  *::after {
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+  }
+
+  nav ul {
+      list-style-type: none;
+  }
+
+  nav ul li {
+      display: inline-block;
+     
+  }
+
+  nav ul li a {
+      display: block;
+      text-decoration: none;
+      color: var(--body-text);
+      font-family: var(--font-secondary);
+      font-weight: 600;
+      padding: 10px 20px;
+      transition: all 0.3s ease;
+  }
+
+  nav li a:hover {
+      background-color: var(--secondary-hover);
+      color: var(--white);
+  }
+
+  .dropdown li {
+      display: block;
+  }
+
+  .dropdown {
+      position: absolute;
+      display: none;
+      width: 150px;
+  }
+
+  nav ul li:hover .dropdown {
+    display: block;
+  }

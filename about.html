@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap Icons CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.13.1/font/bootstrap-icons.min.css"
+      integrity="sha512-t7Few9xlddEmgd3oKZQahkNI4dS6l80+eGEzFQiqtyVYdvcSG2D3Iub77R20BdotfRPA9caaRkg1tyaJiPmO0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Main CSS (mobile-first) -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>About Us</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <!-- Row: flexbox grid container -->
+      <div class="row">
+        <!-- Mobile navigation (visible on small screens) -->
+        <nav class="mobile-nav">
+          <a href="#" class="nav__img">
+            <img src="img/brew-grind-logo.png" class="" alt="brew&grind logo" />
+          </a>
+          <!-- Hamburger menu icon (should be a button for accessibility) -->
+          <i class="bi bi-list" id="hamburger-menu"></i>
+        </nav>
+
+        <!-- Desktop navigation (hidden on mobile, visible on tablets and above) -->
+        <nav class="desktop-nav">
+          <a href="#" class="nav__img">
+            <img src="img/brew-grind-logo.png" class="" alt="brew&grind logo" />
+          </a>
+          <ul class="navbar">
+            <li><a class="navbar__item" href="index.html">Home</a></li>
+            <li>
+              <a class="navbar__item active" href="about.html">About Us</a>
+            </li>
+            <li><a class="navbar__item" href="our-menu.html">Our Menu</a></li>
+            <li>
+              <a class="navbar__item" href="contact-us.html">Contact Us</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <!-- Mobile menu (hidden by default, toggled by JavaScript) -->
+      <ul class="mobile-navbar">
+        <li><a class="navbar__item" href="index.html">Home</a></li>
+        <li><a class="navbar__item active" href="about.html">About Us</a></li>
+        <li><a class="navbar__item" href="our-menu.html">Our Menu</a></li>
+        <li>
+          <a class="navbar__item" href="contact-us.html">Contact Us</a>
+        </li>
+      </ul>
+    </header>
+
+    <main>
+      <!-- Page banner with title and image -->
+      <section class="banner">
+        <div class="row banner__row">
+          <div class="col-6 col-6-sm col-6-md">
+            <h1 class="banner__row--text">About Us</h1>
+          </div>
+          <div class="col-6 col-6-sm col-6-md">
+            <img
+              class="banner__row--img"
+              src="./img/banner-object.png"
+              alt="banner object"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Our Story section with image and text -->
+      <section class="feature">
+        <div class="row reverse-md">
+          <!-- Stacked on mobile, side-by-side on tablet/desktop -->
+          <div class="col-12 col-6-md">
+            <div class="div__center feature__row">
+              <h2 class="feature__heading">Our Story</h2>
+              <p class="feature__text">
+                Brew & Grind first opened its doors in 2014 at the lively corner
+                of P. Noval and Dapitan St. in Sampaloc, Manila. What started as
+                a humble dream to share the love of high quality coffee in a
+                cozy, welcoming space quickly became a neighborhood favorite.
+              </p>
+              <p class="feature__text">
+                From early mornings filled with the aroma of freshly ground
+                beans to late afternoons shared over warm conversations, Brew &
+                Grind has always been more than just a coffee shop. It's a
+                gathering place for students, professionals, and friends, a spot
+                where every cup tells a story and every visit feels like home.
+              </p>
+              <p class="feature__text">
+                Over the years, our passion for great coffee and genuine
+                connection has only grown stronger. At Brew & Grind, we don't
+                just brew coffee, we brew community.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-6-md">
+            <img src="./img/about/original-site.jpg" alt="original site" />
+          </div>
+        </div>
+      </section>
+
+      <!-- Mission & Vision section with dark background -->
+      <section class="feature--dark">
+        <div class="row">
+          <div class="col-12 col-6-md">
+            <div class="div__center feature__row">
+              <h2 class="feature--dark feature__heading">
+                Our Mission - Vision
+              </h2>
+              <p class="feature--dark feature__text">
+                At Brew&Grind, our mission is to serve exceptional coffee
+                thoughtfully brewed from the finest, ethically sourced beans. We
+                aim to create more than just a beverage—we offer an immersive
+                and heartwarming experience that celebrates craftsmanship, care,
+                and the richness of every cup shared.
+              </p>
+              <p class="feature--dark feature__text">
+                Our vision is to nurture a growing love for coffee by creating
+                meaningful, high-quality experiences that bring people together.
+                Whether it's a quiet moment alone or a conversation shared,
+                Brew&Grind strives to be the cozy backdrop to life's little
+                connections and everyday rituals.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-6-md">
+            <img src="./img/about/mission-vision.jpg" alt="mission vision" />
+          </div>
+        </div>
+      </section>
+
+      <!-- Founder's message section -->
+      <section class="feature secondary">
+        <div class="row reverse-md">
+          <!-- 1/3 width for image, 2/3 width for text on medium screens -->
+          <div class="col-12 col-6-md">
+            <div class="div__center feature__row">
+              <h2 class="feature__heading">Words from Our Founder</h2>
+              <p class="feature__text">
+                When I opened Brew & Grind in 2014, my dream was simple: to
+                create a place where good coffee and good company come together.
+                Coffee, to me, has always been about moments—the quiet mornings,
+                the laughter, and the connections it brings.
+              </p>
+              <p class="feature__text">
+                From our first espresso on the corner of P. Noval and Dapitan,
+                Brew & Grind has grown into more than just a café. It has become
+                a community built on passion and warmth.
+              </p>
+              <p class="feature__text">
+                Every cup we serve is a reminder of that dream. I hope you
+                always find comfort and belonging here at Brew & Grind.
+              </p>
+              <p class="feature__text">
+                When I opened Brew & Grind in 2014, my dream was simple: to
+                create a place where good coffee and good company come together.
+                Coffee, to me, has always been about moments—the quiet mornings,
+                the laughter, and the connections it brings.
+              </p>
+              <div class="feature__text right-align">
+                <p>Miguel "Migs" Santos</p>
+                <p>
+                  <b>Founder</b>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-6-md">
+            <img
+              class="feature__image"
+              src="./img/about/founder.jpg"
+              alt="founder"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="row col-12">
+        <div class="col-12 col-6-sm col-3-md footer__item">
+          <h4>About Us</h4>
+          <p>
+            Your neighborhood spot for great coffee, good company, and a warm
+            atmosphere. Visit us today and experience the difference. Follow us
+            on social media for the latest updates and events!
+          </p>
+        </div>
+        <div class="col-12 col-6-sm col-3-md footer__item">
+          <h4>Contact Us</h4>
+          <p>
+            1234, Address, Street Name, Place, Name, City Name <br /><br />(+63)
+            972 215 5432 <br />(+63) 972 332 8423
+            <br /><br />brewngrind@gmail.com
+          </p>
+        </div>
+        <div class="col-12 col-6-sm col-3-md footer__item">
+          <h4>Quick Link</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="our-menu.html">Our Menu</a></li>
+            <li><a href="contact-us.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="col-12 col-6-sm col-3-md footer__item">
+          <h4>Opening Time</h4>
+          <ul>
+            <li>Monday: 10:00am</li>
+            <li>Tuesday: 10:20am - 5:30pm</li>
+            <li>Wednesday: 10:30am - 5:50pm</li>
+            <li>Thursday: 11:00am - 7:10pm</li>
+            <li>Friday: Closed</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!-- Scripts at end of body for faster page loading -->
+    <script src="./js/script.js"></script>
+  </body>
+</html>

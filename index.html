@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap Icons CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.13.1/font/bootstrap-icons.min.css"
+      integrity="sha512-t7Few9xlddEmgd3oKZQahkNI4dS6l80+eGEzFQiqtyVYdvcSG2D3Iub77R20BdotfRPA9caaRkg1tyaJiPmO0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Main CSS (mobile-first) -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Brew & Grind</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <!-- Row: flexbox grid container -->
+      <div class="row">
+        <!-- Mobile navigation (visible on small screens) -->
+        <nav class="mobile-nav">
+          <a href="#" class="nav__img">
+            <img src="img/brew-grind-logo.png" class="" alt="brew&grind logo" />
+          </a>
+          <!-- Hamburger menu icon (should be a button for accessibility) -->
+          <i class="bi bi-list" id="hamburger-menu"></i>
+        </nav>
+
+        <!-- Desktop navigation (hidden on mobile, visible on tablets and above) -->
+        <nav class="desktop-nav">
+          <a href="#" class="nav__img">
+            <img src="img/brew-grind-logo.png" class="" alt="brew&grind logo" />
+          </a>
+          <ul class="navbar">
+            <li><a class="navbar__item active" href="index.html">Home</a></li>
+            <li><a class="navbar__item" href="about.html">About Us</a></li>
+            <li><a class="navbar__item" href="our-menu.html">Our Menu</a></li>
+            <li>
+              <a class="navbar__item" href="contact-us.html">Contact Us</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <!-- Mobile menu (hidden by default, toggled by JavaScript) -->
+      <ul class="mobile-navbar">
+        <li><a class="navbar__item active" href="index.html">Home</a></li>
+        <li><a class="navbar__item" href="about.html">About Us</a></li>
+        <li><a class="navbar__item" href="our-menu.html">Our Menu</a></li>
+        <li>
+          <a class="navbar__item" href="contact-us.html">Contact Us</a>
+        </li>
+      </ul>
+    </header>
+
+    <main>
+      <!-- <section>: Groups thematically related content. -->
+      <section id="slider-section">
+        <div class="slider">
+          <div class="track">
+            <div class="slide">
+              <img src="./img/Slider/slider1.jpg" alt="" />
+            </div>
+            <div class="slide">
+              <img src="./img/Slider/slider2.jpg" alt="" />
+            </div>
+            <div class="slide">
+              <img src="./img/Slider/slider3.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+        <button id="prev"><i class="bi bi-chevron-left"></i></button>
+        <button id="next"><i class="bi bi-chevron-right"></i></button>
+      </section>
+
+      <!-- About section with video -->
+      <section class="feature">
+        <!-- reverse-md: reverses column order on medium screens -->
+        <div class="row reverse-md">
+          <!-- 12-column grid system classes -->
+          <div class="col-12 col-6-md">
+            <div class="div__center">
+              <h2 class="feature__heading">Humble Beginnings</h2>
+              <p class="feature__text">
+                Brew & Grind opened its doors in 2014 at the vibrant corner of
+                P. Noval and Dapitan St. in Sampaloc, Manila. What began as a
+                simple dream—to serve highquality coffee in a warm, welcoming
+                space—has grown into a beloved neighborhood staple.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-6-md">
+            <!-- Video with native HTML5 controls -->
+            <video
+              src="./video/brew-and-grind-video.mp4"
+              controls
+              width="100%"
+              height="100%"
+            ></video>
+          </div>
+        </div>
+      </section>
+
+      <!-- Community section -->
+      <section class="feature--dark">
+        <div class="row">
+          <div class="col-12 col-6-md">
+            <div class="div__center">
+              <h2 class="feature--dark feature__heading">
+                Where Coffee Meets Community
+              </h2>
+              <p class="feature--dark feature__text">
+                Brew & Grind opened its doors in 2014 at the vibrant corner of
+                P. Noval and Dapitan St. in Sampaloc, Manila. What began as a
+                simple dream—to serve highquality coffee in a warm, welcoming
+                space—has grown into a beloved neighborhood staple.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-6-md">
+            <img
+              src="./img/home/where- coffee-meets-community.png"
+              alt="where coffee meets community"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Specialties section -->
+      <section class="specialties">
+        <div class="row">
+          <div class="col-12 specialties__text">
+            <h3>Our Specialties</h3>
+            <p>
+              Welcome to our menu—a celebration of flavor and craftsmanship.
+              Discover a diverse selection of artisanal coffees and handcrafted
+              delicacies, each prepared with passion and precision for a truly
+              unique experience
+            </p>
+          </div>
+
+          <div class="col-12 col-4-md specialties__item">
+            <img
+              src="./img/home/expertly-crafted-coffee.png"
+              alt="expertly crafted coffee"
+            />
+            <div class="col-12 specialties__text">
+              <h4>Expertly Crafted Coffee</h4>
+              <p>
+                Every cup is brewed with precision, using highquality beans and
+                expert techniques to ensure the perfect balance of flavor and
+                aroma.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-4-md specialties__item">
+            <img
+              src="./img/home/heavenly-baked-delights.png"
+              alt="heavenly baked delights"
+            />
+            <div class="col-12 specialties__text">
+              <h4>Heavenly Baked Delights</h4>
+              <p>
+                Each confection is meticulously prepared, using premium
+                ingredients and time-honored recipes to ensure the perfect blend
+                of taste and texture.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-4-md specialties__item">
+            <img
+              src="./img/home/ethically-souced-beans.png"
+              alt="ethically sourced beans"
+            />
+            <div class="col-12 specialties__text">
+              <h4>Ethically Sourced Beans</h4>
+              <p>
+                Every batch is selected with discernment, using high-grade
+                varieties and artisanal methods to ensure the richest body and
+                aroma.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 specialties__text">
+          <a class="btn" href="our-menu.html">View Full Menu</a>
+        </div>
+      </section>
+
+      <!-- Customer reviews -->
+      <section class="reviews">
+        <div class="row reviews__row">
+          <div class="col-12">
+            <h3>What Our Patrons Say</h3>
+            <p>
+              We're proud to have earned the trust of our patrons over the
+              years. Here's what they have to say about their experiences with
+              us.
+            </p>
+          </div>
+          <div class="col-12 col-4-md reviews__item">
+            <img
+              class="reviews__img"
+              src="./img/home/jack-amo.jpg"
+              alt="jack amo"
+            />
+            <div class="reviews__text">
+              <h4>Jack Amo</h4>
+              <p>
+                I loved the exceptional blend of rich coffee flavors paired with
+                a cozy, relaxed ambiance that truly elevates the morning ritual.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-4-md reviews__item">
+            <img
+              class="reviews__img"
+              src="./img/home/leanne-gatong.jpg"
+              alt="leanne gatong"
+            />
+            <div class="reviews__text">
+              <h4>Leanne Gatong</h4>
+              <p>
+                The staff is incredibly friendly and attentive, creating an
+                inviting experience that makes every visit memorable and unique.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-4-md reviews__item">
+            <img
+              class="reviews__img"
+              src="./img/home/mark-reyes.jpg"
+              alt="mark reyes"
+            />
+            <div class="reviews__text">
+              <h4>Mark Reyes</h4>
+              <p>
+                Each visit offers a new surprise of flavors and warmth. The
+                passion for quality and community shows in every cup of coffee
+                and every smile.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="reviews__text"><a class="btn" href="">View More</a></div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="row col-12">
+        <div class="col-12 col-6-sm col-3-md footer__item">
+          <h4>About Us</h4>
+          <p>
+            Your neighborhood spot for great coffee, good company, and a warm
+            atmosphere. Visit us today and experience the difference. Follow us
+            on social media for the latest updates and events!
+          </p>
+        </div>
+        <div class="col-12 col-6-sm col-3-md footer__item">
+          <h4>Contact Us</h4>
+          <p>
+            1234, Address, Street Name, Place, Name, City Name <br /><br />(+63)
+            972 215 5432 <br />(+63) 972 332 8423
+            <br /><br />brewngrind@gmail.com
+          </p>
+        </div>
+        <div class="col-12 col-6-sm col-3-md footer__item">
+          <h4>Quick Link</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="our-menu.html">Our Menu</a></li>
+            <li><a href="contact-us.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="col-12 col-6-sm col-3-md footer__item">
+          <h4>Opening Time</h4>
+          <ul>
+            <li>Monday: 10:00am</li>
+            <li>Tuesday: 10:20am - 5:30pm</li>
+            <li>Wednesday: 10:30am - 5:50pm</li>
+            <li>Thursday: 11:00am - 7:10pm</li>
+            <li>Friday: Closed</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!-- Scripts at end of body for faster page loading -->
+    <script src="./js/script.js"></script>
+    <script src="./js/home.js"></script>
+  </body>
+</html>

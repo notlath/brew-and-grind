@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap Icons CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.13.1/font/bootstrap-icons.min.css"
+      integrity="sha512-t7Few9xlddEmgd3oKZQahkNI4dS6l80+eGEzFQiqtyVYdvcSG2D3Iub77R20BdotfRPA9caaRkg1tyaJiPmO0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Main CSS (mobile-first) -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Contact Us</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <!-- Row: flexbox grid container -->
+      <div class="row">
+        <!-- Mobile navigation (visible on small screens) -->
+        <nav class="mobile-nav">
+          <a href="#" class="nav__img">
+            <img src="img/brew-grind-logo.png" class="" alt="brew&grind logo" />
+          </a>
+          <!-- Hamburger menu icon (should be a button for accessibility) -->
+          <i class="bi bi-list" id="hamburger-menu"></i>
+        </nav>
+
+        <!-- Desktop navigation (hidden on mobile, visible on tablets and above) -->
+        <nav class="desktop-nav">
+          <a href="#" class="nav__img">
+            <img src="img/brew-grind-logo.png" class="" alt="brew&grind logo" />
+          </a>
+          <ul class="navbar">
+            <li><a class="navbar__item" href="index.html">Home</a></li>
+            <li><a class="navbar__item" href="about.html">About Us</a></li>
+            <li><a class="navbar__item" href="our-menu.html">Our Menu</a></li>
+            <li>
+              <a class="navbar__item active" href="contact-us.html"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <!-- Mobile menu (hidden by default, toggled by JavaScript) -->
+      <ul class="mobile-navbar">
+        <li><a class="navbar__item" href="index.html">Home</a></li>
+        <li><a class="navbar__item" href="about.html">About Us</a></li>
+        <li><a class="navbar__item" href="our-menu.html">Our Menu</a></li>
+        <li>
+          <a class="navbar__item active" href="contact-us.html">Contact Us</a>
+        </li>
+      </ul>
+    </header>
+
+    <main>
+      <!-- Page banner with title and image -->
+      <section class="banner">
+        <div class="row banner__row">
+          <div class="col-6 col-6-sm col-6-md">
+            <h1 class="banner__row--text">Contact Us</h1>
+          </div>
+          <div class="col-6 col-6-sm col-6-md">
+            <img
+              class="banner__row--img"
+              src="./img/banner-object.png"
+              alt="banner object"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact form and details section -->
+      <section class="contact-us">
+        <div class="row">
+          <!-- Contact details (side column on medium screens) -->
+          <div class="col-12 col-12-sm col-4-md contact__row">
+            <h3>Keep In Touch</h3>
+            <div class="contact__details">
+              <div class="row">
+                <div class="contact__row__item">
+                  <i class="bi bi-geo-alt-fill"></i>
+                  <p>
+                    Karmela Building 2590, 3rd Floor <br />
+                    Manchas Street corner Venecia Street <br />
+                    Makati City 1205
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact__details">
+              <div class="row">
+                <div class="contact__row__item">
+                  <i class="bi bi-envelope-fill"></i>
+                  <p>
+                    Odio ultrices varius
+                    <br />
+                    faucibus.Mauris@nullam.com
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="contact__details">
+              <div class="row">
+                <div class="contact__row__item">
+                  <i class="bi bi-telephone-fill"></i>
+                  <p>
+                    (+00) 123 456 7890 <br />
+                    (+00) 123 456 7890
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact form (main column on medium screens) -->
+          <form class="col-12 col-8-md">
+            <div class="contact__row">
+              <div class="col-6-md">
+                <input type="text" placeholder="Name" />
+              </div>
+              <div class="col-6-md">
+                <input type="email" placeholder="Email" />
+              </div>
+            </div>
+            <div class="contact__row">
+              <div class="col-12">
+                <input type="text" placeholder="Subject" />
+              </div>
+            </div>
+            <div class="contact__row">
+              <div class="col-12">
+                <textarea placeholder="Message"></textarea>
+              </div>
+            </div>
+
+            <div class="contact__row">
+              <div class="col-12">
+                <button id="form-btn" class="btn" type="submit">
+                  Send us a message
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <!-- Map section with embedded Google Maps -->
+      <section class="location-section">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.5769597594776!2d121.01130697471093!3d14.566167785916123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c9a04480d30b%3A0xeb58a3874cff7c5d!2sInventive%20Media!5e0!3m2!1sen!2sph!4v1767860530095!5m2!1sen!2sph"
+          width="100%"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="row col-12">
+        <div class="col-12 col-6-sm col-3-md footer__item">
+          <h4>About Us</h4>
+          <p>
+            Your neighborhood spot for great coffee, good company, and a warm
+            atmosphere. Visit us today and experience the difference. Follow us
+            on social media for the latest updates and events!
+          </p>
+        </div>
+        <div class="col-12 col-6-sm col-3-md footer__item">
+          <h4>Contact Us</h4>
+          <p>
+            1234, Address, Street Name, Place, Name, City Name <br /><br />(+63)
+            972 215 5432 <br />(+63) 972 332 8423
+            <br /><br />brewngrind@gmail.com
+          </p>
+        </div>
+        <div class="col-12 col-6-sm col-3-md footer__item">
+          <h4>Quick Link</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="our-menu.html">Our Menu</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="col-12 col-6-sm col-3-md footer__item">
+          <h4>Opening Time</h4>
+          <ul>
+            <li>Monday: 10:00am</li>
+            <li>Tuesday: 10:20am - 5:30pm</li>
+            <li>Wednesday: 10:30am - 5:50pm</li>
+            <li>Thursday: 11:00am - 7:10pm</li>
+            <li>Friday: Closed</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!-- Scripts at end of body for faster page loading -->
+    <script src="./js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap Icons CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.13.1/font/bootstrap-icons.min.css"
+      integrity="sha512-t7Few9xlddEmgd3oKZQahkNI4dS6l80+eGEzFQiqtyVYdvcSG2D3Iub77R20BdotfRPA9caaRkg1tyaJiPmO0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Main CSS (mobile-first) -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Our Menu</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <!-- Row: flexbox grid container -->
+      <div class="row">
+        <!-- Mobile navigation (visible on small screens) -->
+        <nav class="mobile-nav">
+          <a href="#" class="nav__img">
+            <img src="img/brew-grind-logo.png" class="" alt="brew&grind logo" />
+          </a>
+          <!-- Hamburger menu icon (should be a button for accessibility) -->
+          <i class="bi bi-list" id="hamburger-menu"></i>
+        </nav>
+
+        <!-- Desktop navigation (hidden on mobile, visible on tablets and above) -->
+        <nav class="desktop-nav">
+          <a href="#" class="nav__img">
+            <img src="img/brew-grind-logo.png" class="" alt="brew&grind logo" />
+          </a>
+          <ul class="navbar">
+            <li><a class="navbar__item" href="index.html">Home</a></li>
+            <li><a class="navbar__item" href="about.html">About Us</a></li>
+            <li>
+              <a class="navbar__item active" href="our-menu.html">Our Menu</a>
+            </li>
+            <li>
+              <a class="navbar__item" href="contact-us.html">Contact Us</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <!-- Mobile menu (hidden by default, toggled by JavaScript) -->
+      <ul class="mobile-navbar">
+        <li><a class="navbar__item" href="index.html">Home</a></li>
+        <li><a class="navbar__item" href="about.html">About Us</a></li>
+        <li>
+          <a class="navbar__item active" href="our-menu.html">Our Menu</a>
+        </li>
+        <li>
+          <a class="navbar__item" href="contact-us.html">Contact Us</a>
+        </li>
+      </ul>
+    </header>
+
+    <main>
+      <!-- Page banner with title and image -->
+      <section class="banner">
+        <div class="row banner__row">
+          <div class="col-6 col-6-sm col-6-md">
+            <h1 class="banner__row--text">Our Menu</h1>
+          </div>
+          <div class="col-6 col-6-sm col-6-md">
+            <img
+              class="banner__row--img"
+              src="./img/banner-object.png"
+              alt="banner object"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Menu features section -->
+      <section class="menu__features">
+        <div class="row">
+          <div class="menu__feature__row col-12">
+            <h2>Why Choose Brew & Grind</h2>
+            <p>
+              At Brew & Grind, every cup tells a story—of passion,
+              craftsmanship, and community. We began with a simple mission: to
+              serve exceptional coffee in a space where people feel at home.
+              Today, we’re proud to be a local favorite, known for our artisanal
+              brews, cozy ambiance, and unwavering dedication to quality and
+              connection. Whether you're a coffee connoisseur or a casual
+              sipper, FeliCoffee offers more than just beverages—we offer a
+              moment worth savoring.
+            </p>
+          </div>
+
+          <!-- Grid item: 4 items per row on medium screens -->
+          <div class="col-12 col-6-sm col-3-md">
+            <img
+              class="menu__img"
+              src="./img/our-menu/icons/expertly-crafted-coffee.png"
+              alt="expertly crafted coffee"
+            />
+            <div class="menu__feature__text">
+              <h6>Expertly Crafted Coffee</h6>
+              <p>
+                Each cup is made with mastery—using carefully sourced beans and
+                refined techniques to bring out bold, smooth, unforgettable
+                flavors.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-6-sm col-3-md">
+            <img
+              class="menu__img"
+              src="./img/our-menu/icons/various-coffee-beans.png"
+              alt="various coffee beans"
+            />
+            <div class="menu__feature__text">
+              <h6>Various Coffee Beans</h6>
+              <p>
+                Explore a variety of specialtybeans from local farms
+                andinternational growers chosen fortheir quality, character,
+                andsustainability.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-6-sm col-3-md">
+            <img
+              class="menu__img"
+              src="./img/our-menu/icons/pastry-partner.png"
+              alt="pastry partner"
+            />
+            <div class="menu__feature__text">
+              <h6>Pastry Partner</h6>
+              <p>
+                Savor your brew with our hand selected pastries, made fresh
+                daily to complement every sip and satisfy every craving.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-12 col-6-sm col-3-md">
+            <img
+              class="menu__img"
+              src="./img/our-menu/icons/coffee-to-go.png"
+              alt="coffee to go"
+            />
+            <div class="menu__feature__text">
+              <h6>Coffee to Go</h6>
+              <p>
+                Each cup is made with mastery using carefully sourced beans and
+                refined techniques to bring out bold, smooth, unforgettable
+                flavors.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Grid layout for feature icons -->
+      </section>
+
+      <!-- Coffee of the Month call-to-action -->
+      <section class="cta">
+        <div class="row reverse-md">
+          <div class="col-12 col-8-md">
+            <div class="div__center feature__row">
+              <h3 class="cta__heading">Coffee of The Month</h3>
+              <h5 class="cta__heading--secondary">Signature Best Coffee</h5>
+              <p class="cta__text">
+                Brew & Grind’s Vanilla Bean Latte blends tradition and
+                innovation for a rich, smooth experience. Made with freshly
+                roasted beans and natural vanilla, it balances notes of
+                caramelized sugar, spice, and toasted cream.
+                <br />
+              </p>
+              <p class="cta__text">
+                Our passion for quality shines in every cup—sourced from the
+                finest ingredients and brewed to perfection. It’s more than a
+                drink; it’s an invitation to savor comfort and sophistication,
+                whether for your morning boost or an afternoon treat.
+                <br />
+              </p>
+              <p class="cta__text">
+                Indulge in a crafted masterpiece that honors heritage while
+                embracing modern creativity. Every sip is a delightful escape.
+              </p>
+              <a class="cta__text btn" href="">Buy It Now</a>
+            </div>
+          </div>
+          <div class="col-12 col-4-md">
+            <img
+              src="./img/our-menu/coffee-of-the-month.jpg"
+              alt="coffee of the month"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Menu specialties grid -->
+      <section class="specialties">
+        <div class="row">
+          <div class="col-12 specialties__text">
+            <h3>Our Specialties</h3>
+            <p>
+              Welcome to our menu—a celebration of flavor and craftsmanship.
+              Discover a diverse selection of artisanal coffees and handcrafted
+              delicacies, each prepared with passion and precision for a truly
+              unique experience. Savor every sip and bite as you embark on a
+              culinary journey that's both nostalgic and innovative. Explore our
+              special offerings and let your taste buds delight in the unique
+              character of every creation.
+            </p>
+          </div>
+          <!-- Grid item: 4 items per row on medium screens -->
+          <div class="col-12 col-3-md specialties__item">
+            <img
+              src="./img/our-menu/golden-maple-latte.jpg"
+              alt="golden maple latte"
+            />
+            <div class="menu__feature__text">
+              <h6>Golden Maple Latte</h6>
+              <p>
+                A smooth espresso blended with steamed milk, infused with rich
+                maple syrup and a hint of cinnamon.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-3-md specialties__item">
+            <img src="./img/our-menu/midnight-mocha.jpg" alt="midnight mocha" />
+            <div class="menu__feature__text">
+              <h6>Midnight Mocha</h6>
+              <p>
+                A earthy twist on a classic latte, with freshly ground matcha
+                and a touch of honey for natural sweetness.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-3-md specialties__item">
+            <img
+              src="./img/our-menu/honey-matcha-latte.jpg"
+              alt="honey matcha latte"
+            />
+            <div class="menu__feature__text">
+              <h6>Honey Matcha Latte</h6>
+              <p>
+                A rich dark chocolate mocha infused with a touch of espresso,
+                finished with a smooth and velvety texture.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-3-md specialties__item">
+            <img
+              src="./img/our-menu/vanilla-bean-cold-brew.jpg"
+              alt="vanilla bean cold brew"
+            />
+            <div class="menu__feature__text">
+              <h6>Vanilla Bean Cold Brew</h6>
+              <p>
+                Our slow-steeped cold brew infused with real vanilla bean for a
+                refreshing, smooth taste.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-3-md specialties__item">
+            <img src="./img/our-menu/midnight-latte.jpg" alt="midnight latte" />
+            <div class="menu__feature__text">
+              <h6>Midnight Latte</h6>
+              <p>
+                Experience a perfect blend of dark chocolate and robust espresso
+                in this sumptuous mocha treat.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-3-md specialties__item">
+            <img
+              src="./img/our-menu/fruit-shortcake.jpg"
+              alt="fruit shortcake"
+            />
+            <div class="menu__feature__text">
+              <h6>Fruit Shortcake</h6>
+              <p>
+                A light shortcake layered with fresh seasonal fruits, crafted to
+                deliver a delightful burst of flavor.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-3-md specialties__item">
+            <img src="./img/our-menu/choco-fill-bun.jpg" alt="choco fill bun" />
+            <div class="menu__feature__text">
+              <h6>Choco Fill Bun</h6>
+              <p>
+                A delectable pastry filled with rich, melted chocolate—a perfect
+                sweet snack for any time.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-3-md specialties__item">
+            <img src="./img/our-menu/muffins.jpg" alt="muffins" />
+            <div class="menu__feature__text">
+              <h6>Muffins</h6>
+              <p>
+                Freshly baked assorted muffins, perfect for a quick snack or a
+                delightful breakfast treat.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="row col-12">
+        <div class="col-12 col-6-sm col-3-md footer__item">
+          <h4>About Us</h4>
+          <p>
+            Your neighborhood spot for great coffee, good company, and a warm
+            atmosphere. Visit us today and experience the difference. Follow us
+            on social media for the latest updates and events!
+          </p>
+        </div>
+        <div class="col-12 col-6-sm col-3-md footer__item">
+          <h4>Contact Us</h4>
+          <p>
+            1234, Address, Street Name, Place, Name, City Name <br /><br />(+63)
+            972 215 5432 <br />(+63) 972 332 8423
+            <br /><br />brewngrind@gmail.com
+          </p>
+        </div>
+        <div class="col-12 col-6-sm col-3-md footer__item">
+          <h4>Quick Link</h4>
+
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="#">Our Menu</a></li>
+            <li><a href="contact-us.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="col-12 col-6-sm col-3-md footer__item">
+          <h4>Opening Time</h4>
+          <ul>
+            <li>Monday: 10:00am</li>
+            <li>Tuesday: 10:20am - 5:30pm</li>
+            <li>Wednesday: 10:30am - 5:50pm</li>
+            <li>Thursday: 11:00am - 7:10pm</li>
+            <li>Friday: Closed</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!-- Scripts at end of body for faster page loading -->
+    <script src="./js/script.js"></script>
+  </body>
+</html>
